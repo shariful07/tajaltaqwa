@@ -37,6 +37,62 @@
     font-size: 20px;
     line-height: 26px;
 }
+.h-service{
+    background: #eef1fa;
+    padding: 50px 0;
+}
+
+.h-service h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.h-service ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.h-service ul li{
+    background-color: #fff;
+    width: 31.3333%;
+    margin: 0 1%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #eee;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.h-service ul li span{
+    margin: 0 auto;
+    background: #eef1fa;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.more-btn{
+    text-align: center;
+}
+.more-btn a{
+    margin: 0 auto;
+    background: #0d6efd;
+    display: block;
+    max-width: 210px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
 
 @media (max-width: 991.98px) {
     .h-banner-txt h2 {
@@ -49,6 +105,12 @@
     .h-banner-txt h2 {
         font-size: 8vh;
         line-height: 8vh;
+    }
+    .h-service ul{
+        display: block;
+    }
+    .h-service ul li{
+        width: 100%;
     }
 }
 
