@@ -37,25 +37,27 @@
     font-size: 20px;
     line-height: 26px;
 }
-.h-service{
+
+.h-service {
     background: #eef1fa;
     padding: 50px 0;
 }
 
-.h-service h2{
+.h-service h2 {
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-.h-service ul{
+.h-service ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     margin-bottom: 10px;
 }
-.h-service ul li{
+
+.h-service ul li {
     background-color: #fff;
     width: 31.3333%;
     margin: 0 1%;
@@ -64,7 +66,8 @@
     margin-bottom: 20px;
     padding: 20px;
 }
-.h-service ul li span{
+
+.h-service ul li span {
     margin: 0 auto;
     background: #eef1fa;
     display: block;
@@ -77,10 +80,12 @@
     justify-content: center;
     border-radius: 100px;
 }
-.more-btn{
+
+.more-btn {
     text-align: center;
 }
-.more-btn a{
+
+.more-btn a {
     margin: 0 auto;
     background: #0d6efd;
     display: block;
@@ -94,6 +99,7 @@
     text-transform: uppercase;
 }
 
+
 @media (max-width: 991.98px) {
     .h-banner-txt h2 {
         font-size: 10vh;
@@ -106,10 +112,12 @@
         font-size: 8vh;
         line-height: 8vh;
     }
-    .h-service ul{
+
+    .h-service ul {
         display: block;
     }
-    .h-service ul li{
+
+    .h-service ul li {
         width: 100%;
     }
 }

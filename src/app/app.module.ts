@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { Page404Component } from './page404/page404.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Page404Component } from './page404/page404.component';
     HeaderComponent,
     ServicesComponent,
     ContactComponent,
-    Page404Component
+    Page404Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
